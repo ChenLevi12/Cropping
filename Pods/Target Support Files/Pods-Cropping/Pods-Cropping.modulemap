@@ -1,0 +1,6 @@
+framework module Pods_Cropping {
+  umbrella header "Pods-Cropping-umbrella.h"
+
+  export *
+  module * { export * }
+}

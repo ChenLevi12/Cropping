@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0118968044A9B37E6106FEF17D8A8BB6 /* Pods-Cropping-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C275D4CAEF04F8699D2A7FB8B3FF5236 /* Pods-Cropping-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45274D3AF731A665ED6FD4D4030D487C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60C0C2A2C90D94D7ABDC83E49B9600 /* Foundation.framework */; };
+		6051D6DDD5724779B2876466890A973D /* Pods-Cropping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7BFF9CBB5D85C801EDF91FE8000C3F /* Pods-Cropping-dummy.m */; };
+		6F5CDAE8F6038B2CF9182E3FF92EC634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60C0C2A2C90D94D7ABDC83E49B9600 /* Foundation.framework */; };
+		9277D9C1352262F37FA10DD02C400E83 /* FaceCropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 606EE3ACC73FAF57ED43292ECC60F23C /* FaceCropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B396175C1D57C6BB3949F077BA406482 /* FaceCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4BE1422E0789A89C544F654752A82 /* FaceCropper.swift */; };
+		BBA9D3CE3D75F851824303F6BA13D122 /* FaceCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 470DD02D5A9F0444F06AF8B057A1D222 /* FaceCropper-dummy.m */; };
+		DF7A9D363C61B84108FF2C6967195263 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B565AA35434EEDB9C27550AD7B71A8 /* Vision.framework */; };
+		E1AFFCC8E8A585749BFFEE62113764D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA58E2FA269C3D860F84580DF6D06725 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351C51CB2FD2EBACACDC2607F71BB790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E248012F2BC3A92B719B744DF1AFBD41;
+			remoteInfo = FaceCropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02662F074EB021D83C720F098B080315 /* Pods-Cropping-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cropping-resources.sh"; sourceTree = "<group>"; };
+		05C8735814225BBC5567578BA60DAAEE /* Pods-Cropping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cropping.release.xcconfig"; sourceTree = "<group>"; };
+		1F1BD56D7EF9E00F94EB921818729A72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B60C0C2A2C90D94D7ABDC83E49B9600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		470DD02D5A9F0444F06AF8B057A1D222 /* FaceCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaceCropper-dummy.m"; sourceTree = "<group>"; };
+		534937CFC4D0E1CEC32667689325AC87 /* Pods-Cropping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cropping.debug.xcconfig"; sourceTree = "<group>"; };
+		606EE3ACC73FAF57ED43292ECC60F23C /* FaceCropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceCropper-umbrella.h"; sourceTree = "<group>"; };
+		61BA26093DBA95C9976A714A11291155 /* FaceCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceCropper.xcconfig; sourceTree = "<group>"; };
+		654E1F9CCB96D252826DC3012AF253AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A66ABEA835D4F9352E188F28392C46 /* Pods_Cropping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cropping.framework; path = "Pods-Cropping.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5FA18D1ABD1F08CD2084FA29E744FC9 /* Pods-Cropping-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cropping-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7B565AA35434EEDB9C27550AD7B71A8 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Vision.framework; sourceTree = DEVELOPER_DIR; };
+		AAA514FFFFE41B51CE767EA5875C6F90 /* Pods-Cropping-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cropping-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1864063F841C50B9065F310ACA78E8B /* Pods-Cropping-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cropping-frameworks.sh"; sourceTree = "<group>"; };
+		C275D4CAEF04F8699D2A7FB8B3FF5236 /* Pods-Cropping-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cropping-umbrella.h"; sourceTree = "<group>"; };
+		CA58E2FA269C3D860F84580DF6D06725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D136C1FEA685D450C09405206E0B017C /* FaceCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaceCropper-prefix.pch"; sourceTree = "<group>"; };
+		E2087EE4F24B551AF1ED6762492CA874 /* FaceCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FaceCropper.modulemap; sourceTree = "<group>"; };
+		EC7BFF9CBB5D85C801EDF91FE8000C3F /* Pods-Cropping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cropping-dummy.m"; sourceTree = "<group>"; };
+		EE6E9B691BA31052C7EC0DA849544FA8 /* FaceCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FaceCropper.framework; path = FaceCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4BE1422E0789A89C544F654752A82 /* FaceCropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaceCropper.swift; path = FaceCropper/Classes/FaceCropper.swift; sourceTree = "<group>"; };
+		FC5CEC261672B408A3ECCE9C9DCD6BE5 /* Pods-Cropping.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Cropping.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7BC38C6D3412A887294C4B6B5A1C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45274D3AF731A665ED6FD4D4030D487C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C341F82258EEB12789989E4FC5C6E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5CDAE8F6038B2CF9182E3FF92EC634 /* Foundation.framework in Frameworks */,
+				E1AFFCC8E8A585749BFFEE62113764D8 /* UIKit.framework in Frameworks */,
+				DF7A9D363C61B84108FF2C6967195263 /* Vision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45D10B6101B463846BD18D5D5614521 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		469181FEDD1AEFD69DD325B0C518F147 /* FaceCropper */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4BE1422E0789A89C544F654752A82 /* FaceCropper.swift */,
+				DD37C4BD161410EFAE1D256B7717C60D /* Support Files */,
+			);
+			name = FaceCropper;
+			path = FaceCropper;
+			sourceTree = "<group>";
+		};
+		4B3BFEFDFEC61948630DB364CA63C049 /* Pods-Cropping */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BD56D7EF9E00F94EB921818729A72 /* Info.plist */,
+				FC5CEC261672B408A3ECCE9C9DCD6BE5 /* Pods-Cropping.modulemap */,
+				A5FA18D1ABD1F08CD2084FA29E744FC9 /* Pods-Cropping-acknowledgements.markdown */,
+				AAA514FFFFE41B51CE767EA5875C6F90 /* Pods-Cropping-acknowledgements.plist */,
+				EC7BFF9CBB5D85C801EDF91FE8000C3F /* Pods-Cropping-dummy.m */,
+				C1864063F841C50B9065F310ACA78E8B /* Pods-Cropping-frameworks.sh */,
+				02662F074EB021D83C720F098B080315 /* Pods-Cropping-resources.sh */,
+				C275D4CAEF04F8699D2A7FB8B3FF5236 /* Pods-Cropping-umbrella.h */,
+				534937CFC4D0E1CEC32667689325AC87 /* Pods-Cropping.debug.xcconfig */,
+				05C8735814225BBC5567578BA60DAAEE /* Pods-Cropping.release.xcconfig */,
+			);
+			name = "Pods-Cropping";
+			path = "Target Support Files/Pods-Cropping";
+			sourceTree = "<group>";
+		};
+		5EB1F6C2C563D8807DCD275F9EA038A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3BFEFDFEC61948630DB364CA63C049 /* Pods-Cropping */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				CD46F65EFDEA026027DE515849DB422B /* Pods */,
+				EF7706CAE719FD7F6B8405CC293A66BA /* Products */,
+				5EB1F6C2C563D8807DCD275F9EA038A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CD46F65EFDEA026027DE515849DB422B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				469181FEDD1AEFD69DD325B0C518F147 /* FaceCropper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D45D10B6101B463846BD18D5D5614521 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B60C0C2A2C90D94D7ABDC83E49B9600 /* Foundation.framework */,
+				CA58E2FA269C3D860F84580DF6D06725 /* UIKit.framework */,
+				A7B565AA35434EEDB9C27550AD7B71A8 /* Vision.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD37C4BD161410EFAE1D256B7717C60D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2087EE4F24B551AF1ED6762492CA874 /* FaceCropper.modulemap */,
+				61BA26093DBA95C9976A714A11291155 /* FaceCropper.xcconfig */,
+				470DD02D5A9F0444F06AF8B057A1D222 /* FaceCropper-dummy.m */,
+				D136C1FEA685D450C09405206E0B017C /* FaceCropper-prefix.pch */,
+				606EE3ACC73FAF57ED43292ECC60F23C /* FaceCropper-umbrella.h */,
+				654E1F9CCB96D252826DC3012AF253AA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceCropper";
+			sourceTree = "<group>";
+		};
+		EF7706CAE719FD7F6B8405CC293A66BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6E9B691BA31052C7EC0DA849544FA8 /* FaceCropper.framework */,
+				72A66ABEA835D4F9352E188F28392C46 /* Pods_Cropping.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68CD50755D0341BD3114872C0C09F870 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9277D9C1352262F37FA10DD02C400E83 /* FaceCropper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C372566797092692B2D875FE3EB810B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0118968044A9B37E6106FEF17D8A8BB6 /* Pods-Cropping-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1583EAC8BFDB2E2E4CE2E3263CB994F7 /* Pods-Cropping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753D75C3F03C42161FC9D2E9AA33A806 /* Build configuration list for PBXNativeTarget "Pods-Cropping" */;
+			buildPhases = (
+				9469ACFE31041F2E88353A588EA56DF7 /* Sources */,
+				2E7BC38C6D3412A887294C4B6B5A1C3B /* Frameworks */,
+				C372566797092692B2D875FE3EB810B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99771270DE2C0A0AE2F0AAC6C8C7F74 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cropping";
+			productName = "Pods-Cropping";
+			productReference = 72A66ABEA835D4F9352E188F28392C46 /* Pods_Cropping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E248012F2BC3A92B719B744DF1AFBD41 /* FaceCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254059FB7C4BF04907348377F5327524 /* Build configuration list for PBXNativeTarget "FaceCropper" */;
+			buildPhases = (
+				1CE401C8989DB57B0B26637F154B05B2 /* Sources */,
+				7C341F82258EEB12789989E4FC5C6E4F /* Frameworks */,
+				68CD50755D0341BD3114872C0C09F870 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceCropper;
+			productName = FaceCropper;
+			productReference = EE6E9B691BA31052C7EC0DA849544FA8 /* FaceCropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EF7706CAE719FD7F6B8405CC293A66BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E248012F2BC3A92B719B744DF1AFBD41 /* FaceCropper */,
+				1583EAC8BFDB2E2E4CE2E3263CB994F7 /* Pods-Cropping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE401C8989DB57B0B26637F154B05B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA9D3CE3D75F851824303F6BA13D122 /* FaceCropper-dummy.m in Sources */,
+				B396175C1D57C6BB3949F077BA406482 /* FaceCropper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9469ACFE31041F2E88353A588EA56DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6051D6DDD5724779B2876466890A973D /* Pods-Cropping-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D99771270DE2C0A0AE2F0AAC6C8C7F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceCropper;
+			target = E248012F2BC3A92B719B744DF1AFBD41 /* FaceCropper */;
+			targetProxy = 351C51CB2FD2EBACACDC2607F71BB790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		41F3338657150269EB7D963A6B1B1A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BA26093DBA95C9976A714A11291155 /* FaceCropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaceCropper/FaceCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceCropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceCropper/FaceCropper.modulemap";
+				PRODUCT_NAME = FaceCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42B8A95E74480E68F26778FEE6E409A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C8735814225BBC5567578BA60DAAEE /* Pods-Cropping.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cropping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cropping/Pods-Cropping.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cropping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F5E4E496836C9B23707F71EBA3BC3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534937CFC4D0E1CEC32667689325AC87 /* Pods-Cropping.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cropping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cropping/Pods-Cropping.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cropping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC27277047B54DCEC8F10876CB894D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BA26093DBA95C9976A714A11291155 /* FaceCropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaceCropper/FaceCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaceCropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FaceCropper/FaceCropper.modulemap";
+				PRODUCT_NAME = FaceCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254059FB7C4BF04907348377F5327524 /* Build configuration list for PBXNativeTarget "FaceCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC27277047B54DCEC8F10876CB894D04 /* Debug */,
+				41F3338657150269EB7D963A6B1B1A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753D75C3F03C42161FC9D2E9AA33A806 /* Build configuration list for PBXNativeTarget "Pods-Cropping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5E4E496836C9B23707F71EBA3BC3A8 /* Debug */,
+				42B8A95E74480E68F26778FEE6E409A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
